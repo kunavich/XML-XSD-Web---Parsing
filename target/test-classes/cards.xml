@@ -1,0 +1,41 @@
+?xml version="1.0" encoding="UTF-8"?>
+<Old_Cards>
+    <Advertising-Card Year="1995" Theme="religion" Valuable="true" Advertise="best ever internet">
+        <Author>Paul</Author>
+        <author-id>ID5673457143</author-id>
+    </Advertising-Card>
+
+    <Advertising-Card Year="1993" Valuable="true">
+        <Author>Bazil</Author>
+        <author-id>ID5673456521</author-id>
+    </Advertising-Card>
+
+    <Advertising-Card Year="2002" Valuable="true">
+        <Author>Volga</Author>
+        <author-id>ID5673456536</author-id>
+    </Advertising-Card>
+
+    <Greeting-Card Year="1990" Theme="sports">
+        <Author>Alex</Author>
+        <author-id>ID5673453642</author-id>
+        <time-constraints>
+            <greeting-date>1990-12-31</greeting-date>
+        </time-constraints>
+    </Greeting-Card>
+
+    <Greeting-Card Year="2011">
+        <Author>Igor</Author>
+        <author-id>ID5673453612</author-id>
+        <time-constraints>
+            <greeting-date>2012-01-01</greeting-date>
+        </time-constraints>
+    </Greeting-Card>
+
+    <Greeting-Card Year="2010">
+        <Author>Tom</Author>
+        <author-id>ID5673453124</author-id>
+        <time-constraints>
+            <greeting-date>2010-01-14</greeting-date>
+        </time-constraints>
+    </Greeting-Card>
+</Old_Cards>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/cards"
+        xmlns:tns="http://www.example.com/cards"
+        elementFormDefault="qualified">
+
+    <element name="Old_Cards">
+        <complexType>
+            <sequence>
+                <element ref="tns:Cards" minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element abstract="true" name="Cards" type="tns:Cards"/>
+	
+    <element name="Advertising-Card" type="tns:Advertising_Card" substitutionGroup="tns:Cards"/>
+    <element name="Greeting-Card" type="tns:Greeting_Card" substitutionGroup="tns:Cards"/>
+	
+    <complexType name="Cards">
+        <sequence>
+            <element name="Author" type="string"/>
+			<element name="author-id" type="tns:author-id"/>
+        </sequence>
+		<attribute name="Valuable" type="boolean" default="false"/>
+        <attribute name="Year" type="int" use="required"/>
+        <attribute name="Theme" type="tns:Theme" default="landscape"/>
+    </complexType>
+
+    <complexType name="Greeting_Card">
+        <complexContent>
+            <extension base="tns:Cards">
+                <attribute name="greeting-date" type="date" />
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Advertising_Card">
+        <complexContent>
+            <extension base="tns:Cards">
+                <attribute name="Advertise" type="string" default="-" />
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <simpleType name="author-id">
+        <restriction base="ID">
+            <pattern value="ID[0-9]{10}"/>
+        </restriction>
+    </simpleType>
+
+
+    <simpleType name="Theme">
+        <restriction base="string">
+            <enumeration value="landscape"/>
+            <enumeration value="nature"/>
+            <enumeration value="people"/>
+            <enumeration value="religion"/>
+            <enumeration value="sports"/>
+            <enumeration value="architecture"/>
+        </restriction>
+    </simpleType>
+</schema>
