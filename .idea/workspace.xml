@@ -3,12 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="182d0cb2-1585-4c2f-84b0-e165f7621b1e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,9 +39,94 @@
     </option>
   </component>
   <component name="ProjectId" id="1jYlR9m33J8nkZqEqyNNKK8GolY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.kunavich.xmlTask.parser" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.kunavich.xmlTask.entity" />
+      <recent name="by.kunavich.xmlTask.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CardSAXparserTest">
+    <configuration name="CardDOMParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.xmlTask.parser.dom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.xmlTask.parser.dom" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.xmlTask.parser.dom.CardDOMParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardJAXBparserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.xmlTask.parser.jaxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.xmlTask.parser.jaxb" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.xmlTask.parser.jaxb.CardJAXBparserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardSAXparserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.xmlTask.parser.sax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.xmlTask.parser.sax" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.xmlTask.parser.sax.CardSAXparserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.xmlTask.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.xmlTask.validator" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.xmlTask.validator.ValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CardSAXparserTest" />
+        <item itemvalue="JUnit.CardJAXBparserTest" />
+        <item itemvalue="JUnit.CardDOMParserTest" />
+        <item itemvalue="JUnit.ValidatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="182d0cb2-1585-4c2f-84b0-e165f7621b1e" name="Default Changelist" comment="" />
@@ -30,5 +136,126 @@
       <updated>1603988894761</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1123" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604132900291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1123" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1604132900291" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604004677261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604004677261" />
+    <state x="270" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604084904035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="270" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604084904035" />
+    <state x="466" y="232" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604090862051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="232" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604090862051" />
+    <state x="479" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604084905770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604084905770" />
+    <state x="216" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604089578702">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="216" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604089578702" />
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1604136661653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604091037924" />
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604136661653" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1604136661653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604091037923" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604136661653" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1604136661652">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604091037923" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604136661652" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1604136661653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604091037923" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604136661653" />
+    <state width="1323" height="215" key="GridCell.Tab.1.bottom" timestamp="1604136661654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604090391824" />
+    <state width="1323" height="215" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604136661654" />
+    <state width="1323" height="215" key="GridCell.Tab.1.center" timestamp="1604136661653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604090391823" />
+    <state width="1323" height="215" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604136661653" />
+    <state width="1323" height="215" key="GridCell.Tab.1.left" timestamp="1604136661653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604090391823" />
+    <state width="1323" height="215" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604136661653" />
+    <state width="1323" height="215" key="GridCell.Tab.1.right" timestamp="1604136661654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604090391824" />
+    <state width="1323" height="215" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604136661654" />
+    <state x="-940" y="38" key="Maven.ArtifactSearchDialog" timestamp="1603992082916">
+      <screen x="-1280" y="-255" width="1280" height="984" />
+    </state>
+    <state x="-940" y="38" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1603992082916" />
+    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1604070336518">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728/-1280.-255.1280.984@0.0.1366.728" timestamp="1604070336518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/xmlTask/validator/ValidatorSAX.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/xmlTask/parser/dom/CardDOMparser.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/by/kunavich/xmlTask/parser/XmlParserTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/xmlTask/parser/jaxb/CardJaxbParser.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/xmlTask/parser/sax/CardSAXHandler.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/xmlTask/parser/sax/CardSAXHandler.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
