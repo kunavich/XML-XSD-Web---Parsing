@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Old_Cards xmlns="http://www.example.com/cards">
+    <Advertising-Card Year="1995" Theme="nature" Advertise="Vary good">
+        <Author>IVAN</Author>
+        <author-id>ID1232534650</author-id>
+    </Advertising-Card>
+
+    <Greeting-Card Year="2018" Theme="religion" greeting-date="2018-02-14">
+        <Author>Paul</Author>
+        <author-id>ID1233214654</author-id>
+    </Greeting-Card>
+</Old_Cards>
